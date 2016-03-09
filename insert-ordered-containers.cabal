@@ -29,7 +29,7 @@ library
       src
   ghc-options: -Wall
   build-depends:
-      base                  >=4.7      && <4.9
+      base                  >=4.7      && <4.10
     , aeson                 >=0.8.0.2  && <0.12
     , base-compat           >=0.6.0    && <0.10
     , hashable              >=1.2.3.3  && <1.4
@@ -50,7 +50,7 @@ test-suite ins-ord-containers-tests
       test
   ghc-options: -Wall
   build-depends:
-      base                  >=4.7      && <4.9
+      base                  >=4.7      && <4.10
     , aeson                 >=0.8.0.2  && <0.12
     , base-compat           >=0.6.0    && <0.10
     , hashable              >=1.2.3.3  && <1.4

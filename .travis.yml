@@ -86,7 +86,6 @@ matrix:
         - libgmp-dev
     compiler: ! ': # ghc-head cabal-1.24'
   allow_failures:
-  - env: GHCVER=8.0.1 CABALVER=1.24
   - env: GHCVER=head CABALVER=1.24
 branches:
   only:
